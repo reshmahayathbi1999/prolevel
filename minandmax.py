@@ -1,7 +1,5 @@
-ni1,mi1=map(int,input().split())
-max1=ni1-mi1
-min=1
-if(mi1==1):
-    print(1,min)
+pf1,qf=map(int,input().split())
+if qf==1:
+   print(1,2)
 else:
-    print(1,max1)
+   print(1,pf1-qf)
